@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  width: 25%;
+}
+
+.form,
+.form-group {
+  display: flex;
+  gap: 0.5rem 3rem;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label,
+button {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+input,
+button {
+  outline: none;
+  padding: 0.5rem;
+  border: 0.1rem solid gray;
+}
+
+button {
+  cursor: pointer;
+}
+
+h3 {
+  margin: 0 auto;
+}
